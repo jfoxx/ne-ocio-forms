@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/ne-ocio-forms" mode="merge"/>
+    <filter root="/content/ne-ocio-forms" mode="merge"/>
+    <filter root="/content/dam/ne-ocio-forms" mode="merge">
+        <exclude pattern="/content/dam/ne-ocio-forms(/.*)?"/>
+        <include pattern="/content/dam/ne-ocio-forms/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/ne-ocio-forms/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/ne-ocio-forms" mode="merge"/>
+</workspaceFilter>

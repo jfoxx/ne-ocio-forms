@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/ne-ocio-forms",
+        "create path (nt:unstructured) /content/dam/ne-ocio-forms/jcr:content",
+        "set properties on /content/dam/ne-ocio-forms/jcr:content\n  set cq:conf{String} to /conf/ne-ocio-forms\n  set jcr:title{String} to \"Nebraska OCIO Forms\"\nend"
+    ]
+}
